@@ -1,0 +1,13 @@
+/* Custom CCS for New connection*/
+.navbar-default{
+	display: none;
+	position: fixed;
+	height: 54px;
+	top: -60px;
+	left: 0;
+	width: 100%;
+	background-color: #FFF;
+	z-index: 100000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	
+}
