@@ -214,6 +214,7 @@ address p{
 	color: #fff;
 	background-color: #f30100;
 	border-color: #fff;
+	margin-bottom: 10px;
 	}
 #ubicacion .btn-primary:hover{
 	color: #fff;
@@ -230,6 +231,11 @@ address p{
 .jumbotron .btn-lg{
 	font-size: 2em;	
 	}}
+.vcard{
+	color: #01017c!important;
+	font-size: 1.2em;
+	font-weight: bolder;
+}	
 .google-maps {
 	position: relative;
     padding-bottom: 75%;
@@ -268,11 +274,39 @@ footer p a.btn-primary:active{
 footer{
 	background-color: #01017c;
 	width: 100%;
-	height: 220px;
+	height: 240px;
 	margin-top: 22px;
 	}
 footer p{
 	font-size:1.2em; 
 	color: #fff;
 	font-weight: bold;	
+	}
+.share ul{
+list-style-type: none;
+	}
+.share	li{
+	margin: .8em .8em .8em;
+	 
+	}
+.share a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	}
+.share a.twitter{
+background: #55acee url(../img/twitter.svg) 6px 8px no-repeat;
+	}
+.share a.facebook{
+background: #55acee url(../img/twitter.svg) 6px 8px no-repeat;
+	}
+.share a.instagram{
+background: #55acee url(../img/twitter.svg) 6px 8px no-repeat;
+	}
+.share a.foursquare{
+background: #55acee url(../img/twitter.svg) 6px 8px no-repeat;
 	}
